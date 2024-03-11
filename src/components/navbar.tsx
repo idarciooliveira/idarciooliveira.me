@@ -9,14 +9,17 @@ import {
     NavigationMenuList,
     navigationMenuTriggerStyle
 } from "@/components/ui/navigation-menu";
-import { ModeToggle } from "@/components/mode-toggle";
-
 import Logo from '../assets/LOGO.svg'
+import { ModeToggle } from "./mode-toggle";
 
 
 export default function Navbar() {
     return (
-        <nav className="flex flex-row items-center space-x-2 justify-between  text-sm font-semibold">
+        <nav className="  py-8 flex flex-row items-center space-x-2 justify-between  text-sm font-semibold">
+
+            <Link href={'/'}>
+                <Image priority width={38} height={38} src={Logo} alt="idarcio oliveira filipe" />
+            </Link>
 
             <div>
                 <NavigationMenu>
@@ -48,31 +51,21 @@ export default function Navbar() {
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/moments" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle({
+                                    className: 'text-sm font-semibold tracking-widest'
+                                })}>
+                                    MOMENTS
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
 
             </div>
 
-            <Link href={'/'}>
-                <Image priority width={50} height={50} src={Logo} alt="idarcio oliveira filipe" />
-            </Link>
-
-
-            <div className="flex flex-row items-center space-x-12">
-                <a target="_blank" href='https://github.com/idarciooliveira'>
-                    <img height="24" width="24" src="https://cdn.simpleicons.org/github" />
-                </a>
-                <a target="_blank" href='www.linkedin.com/in/idarciooliveira'>
-                    <img height="24" width="24" src="https://cdn.simpleicons.org/linkedin" />
-                </a>
-                <a href="mailto:idarciooliveira@gmail.com">
-                    <img height="24" width="24" src="https://cdn.simpleicons.org/gmail" />
-                </a>
-                <a target="_blank" href='https://www.youtube.com/channel/UCcFx9D0sM4EbVkZ8jvo1-Tw'>
-                    <img height="24" width="24" src="https://cdn.simpleicons.org/youtube" />
-                </a>
-                <ModeToggle />
-            </div>
+            <ModeToggle />
         </nav>
     );
 }

@@ -5,6 +5,7 @@ import fonts from "@/fonts/fonts";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import Stack from "@/components/stack";
 
 export const metadata: Metadata = {
   title: "Idarcio Oliveira",
@@ -29,6 +30,7 @@ export default function RootLayout({
             <Navbar />
             {children}
             <Footer />
+            <Stack />
           </div>
         </ThemeProvider>
       </body>

@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <div className="w-full py-20 flex justify-center " >
-
         <div className="space-y-3">
           <h2 className="text-4xl font-bold ">Olá, sou o Idárcio Oliveira</h2>
           <h3 className="text-xl font-semibold">Engenheiro de Software</h3>

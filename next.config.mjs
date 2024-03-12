@@ -9,9 +9,6 @@ module.exports = {
      * Replace `nextjs-github-pages` with your Github repo project name.
      */
     assetPrefix: isProd ? "/idarciooliveira.me/" : "",
-    images: {
-        unoptimized: true,
-    },
     eslint: {
         // Warning: This allows production builds to successfully complete even if
         // your project has ESLint errors.

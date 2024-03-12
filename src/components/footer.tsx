@@ -5,7 +5,7 @@ import { EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon, VideoIcon } from 
 
 export default function Footer() {
     return (
-        <div>
+        <div className="mt-8">
             <div className="flex flex-row items-center justify-center space-x-12">
                 <a target="_blank" href='https://github.com/idarciooliveira'>
                     <GitHubLogoIcon height={24} width={24} />

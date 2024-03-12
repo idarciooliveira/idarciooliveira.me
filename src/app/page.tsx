@@ -1,4 +1,5 @@
 'use client'
+import { Button } from "@/components/ui/button";
 import { MovingBorderButton } from "@/components/ui/moving-border-button";
 import Link from "next/link";
 
@@ -16,11 +17,11 @@ export default function Home() {
             especialista na construção de aplicações web e mobile<br />
             e um grande amante de desafios.
           </p>
-          <div className="space-x-8">
+          <div className="space-x-4">
             <MovingBorderButton>
               CV
             </MovingBorderButton>
-            <Link href={'/contact'}>Contacto</Link>
+            <Link className="hover:underline" href={'/contact'}>Contacto</Link>
           </div>
         </div>
       </div>

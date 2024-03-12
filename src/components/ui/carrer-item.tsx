@@ -16,7 +16,7 @@ export default function CarrerItem(props: Props) {
         <div>
             <h3 className="font-semibold">{props.jobTitle}</h3>
             <h4 className="flex flex-row items-center text-gray-400">
-                <Link target="_blank" passHref className="decoration-solid underline text-white" href={props.link}>
+                <Link target="_blank" passHref className="decoration-solid underline text-black dark:text-white" href={props.link}>
                     {props.company}
                 </Link>
                 <DotFilledIcon /> {props.address}

@@ -31,7 +31,7 @@ export default function Navbar() {
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>
-                        <NavigationMenuItem>
+                        {/* <NavigationMenuItem>
                             <Link href="/articles" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle({
                                     className: 'text-sm font-semibold tracking-widest'
@@ -39,7 +39,7 @@ export default function Navbar() {
                                     ARTICLES
                                 </NavigationMenuLink>
                             </Link>
-                        </NavigationMenuItem>
+                        </NavigationMenuItem> */}
                         <NavigationMenuItem>
                             <Link href="/projects" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle({

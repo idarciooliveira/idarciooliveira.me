@@ -1,4 +1,10 @@
 import Moments from "@/components/moments";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Moments // Idarcio Oliveira",
+    description: "my personal website",
+};
 
 export default function MyMoments() {
     return (

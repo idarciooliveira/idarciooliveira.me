@@ -3,39 +3,39 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 const items = [
     {
         title: 'Gala Huíla Talento 2019 Final',
-        image: './assets/huila-talento.jpg',
+        image: './assets/events/huila-talento.jpg',
     },
     {
         title: 'GinPro Hackaton Universitário, was my first hackaton',
-        image: './assets/hackaton.jpg',
+        image: './assets/events/hackaton.jpg',
     },
     {
         title: 'My first bootcamp about programming',
-        image: './assets/bootcamp.jpg',
+        image: './assets/events/bootcamp.jpg',
     },
     {
         title: 'Final of LISPA JUMPSTART powered by Acelera Angola & BNA',
-        image: './assets/lispa.jpg',
+        image: './assets/events/lispa.jpg',
     },
     {
         title: 'My first workshop as a speaker where I talked a bit about programming as a vehicle for developing local solutions.',
-        image: './assets/workshop.jpg',
+        image: './assets/events/workshop.jpg',
     },
     {
         title: 'The day of the launch of the first mobile application I built as Mobile Developer on a Team',
-        image: './assets/mutundoexpress.jpg',
+        image: './assets/events/mutundoexpress.jpg',
     },
     {
         title: 'The day of the launch of the first two products I participated in as the leader of the development team',
-        image: './assets/tecnobase.png',
+        image: './assets/events/tecnobase.png',
     },
     {
         title: 'Christmas charity event with the children of Criança Feliz Angola, lots of fun and play',
-        image: './assets/natal-solidario.jpg',
+        image: './assets/events/natal-solidario.jpg',
     },
     {
         title: 'Winner of Huila Talent as Best Tech Project Powered By Tigra',
-        image: './assets/huila-talento-tigra.jpg',
+        image: './assets/events/huila-talento-tigra.jpg',
     }
 ]
 

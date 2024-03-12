@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import Image from "next/image";
 
 import {
     NavigationMenu,
@@ -9,7 +8,6 @@ import {
     NavigationMenuList,
     navigationMenuTriggerStyle
 } from "@/components/ui/navigation-menu";
-import Logo from '../assets/LOGO.svg'
 import { ModeToggle } from "./mode-toggle";
 
 
@@ -17,8 +15,8 @@ export default function Navbar() {
     return (
         <nav className="  py-8 flex flex-row items-center space-x-2 justify-between  text-sm font-semibold">
 
-            <Link href={'/'}>
-                <Image priority width={38} height={38} src={Logo} alt="idarcio oliveira filipe" />
+            <Link href={'/'} className="border-2 border-slate-80 dark:border-gray-50  p-2 rounded-full border-color-white">
+                IOF
             </Link>
 
             <div>

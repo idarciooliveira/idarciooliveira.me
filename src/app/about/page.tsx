@@ -13,7 +13,7 @@ export default function About() {
         <div className="py-4 space-y-12  flex justify-center flex-col">
             <div className="flex flex-row justify-center items-center  gap-20">
                 <div>
-                    <img className="rounded-xl" src={`https://placehold.co/350x350`} alt="idarcio oliveira" />
+                    <img className="rounded-xl" src={'./assets/events/profile.png'} alt="idarcio oliveira" />
                 </div>
                 <div className="text-md whitespace-pre text-justify tracking-widest leading-7 text-pretty">
                     <p>
@@ -24,7 +24,7 @@ export default function About() {
 
                     <p >
                         <b>I'm the FullStack Developer at Njilayetu</b>. Before that, I
-                        was  <br /> a Backend Developer at Tecnobase and Fullstack <br />
+                        was  a Backend Developer at Tecnobase and Fullstack <br />
                         Developer at Mutundo Express. I'm originally from Cabinda <br />
                         and <b>now living in Luanda, Angola</b> with my family. <br />
                         {'\n'}

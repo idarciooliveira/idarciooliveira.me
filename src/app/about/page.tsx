@@ -24,8 +24,8 @@ export default function About() {
 
                     <p >
                         <b>I'm the FullStack Developer at Njilayetu</b>. Before that, I
-                        was  a Backend Developer at Tecnobase and Fullstack <br />
-                        Developer at Mutundo Express. I'm originally from Cabinda <br />
+                        was  a Frontend and Mobile Developer at Mutundo Express  <br /> and
+                        Tech Lead at Tecnobase and. I'm originally from Cabinda <br />
                         and <b>now living in Luanda, Angola</b> with my family. <br />
                         {'\n'}
                     </p>
